@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama&display=swap');
+
+:root {
+    --background-color: #1e222a;
+    --text-color:#dedede;
+    --text-color-dark:#442434;
+    --cheese-color:#dad45e;
+}
+
+* {
+    transition: 0.6s;
+}
+
+body {
+    background-color:var(--background-color);
+    color:var(--text-color);
+    font-family: 'Georama', sans-serif;
+    margin:0;
+}
+
+ul.topnav {
+    position:fixed;
+    top:0;
+    width:80vw;
+    list-style-type: none;
+    margin-left: 10vw;
+    margin-right:10vw;
+    margin-top:0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom:1px solid var(--text-color);
+    background-color: var(--background-color);
+}
+  
+ul.topnav li {float: left;}
+  
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+  
+ul.topnav li a:hover {
+    background-color:var(--cheese-color);
+    color:var(--text-color-dark);
+    padding-left:25px;
+    padding-right:25px;
+}
+  
+ul.topnav li.right {
+    float: right;
+}
+
+.body {
+    margin-left:10vw;
+    margin-right:10vw;
+    margin-top:80px;
+}
+
+@media screen and (max-width: 600px) {
+    ul.topnav {margin:0; width:100vw;}
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+    .body {
+        margin-left:10vw;
+        margin-right:10vw;
+        margin-top:280px;
+    }
+}
