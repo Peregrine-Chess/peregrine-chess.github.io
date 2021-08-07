@@ -67,6 +67,7 @@ a {
     background-color: var(--cheese-color);
     color:var(--text-color-dark);
     border: 1px solid var(--text-color-dark);
+    text-decoration: none;
 }
 
 .hero {
@@ -151,6 +152,11 @@ ul.topnav li a:hover {
     padding-left:25px;
     padding-right:25px;
 }
+
+.icon {
+    color:var(--cheese-color);
+    font-size:4em;
+}
   
 ul.topnav li.right {
     float: right;
@@ -162,6 +168,14 @@ ul.topnav li.right {
     flex:1;
     margin:10px;
     min-width:300px;
+}
+
+.card-2 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    flex:1;
+    margin:10px;
+    min-width:200px;
 }
 
 p {
