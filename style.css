@@ -66,6 +66,7 @@ a {
 .button:hover {
     background-color: var(--cheese-color);
     color:var(--text-color-dark);
+    border: 1px solid var(--text-color-dark);
 }
 
 .hero {
