@@ -179,6 +179,17 @@ ul.topnav li.right {
     min-width:200px;
 }
 
+.card-3 {
+    font-size: 3em;
+    flex:1;
+    margin:10px;
+    min-width:200px;
+}
+
+.card-3:hover {
+    font-size: 4em;
+}
+
 p {
     color:var(--text-color);
 }
