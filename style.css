@@ -135,6 +135,7 @@ ul.topnav {
     overflow: hidden;
     border-bottom:1px solid var(--text-color);
     background-color: var(--background-color);
+    box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
 }
   
 ul.topnav li {float: left;}
