@@ -247,13 +247,29 @@ a:hover {
   }
 
 @media screen and (max-width: 600px) {
-    ul.topnav {margin-left:10vw; width:100vw;}
+    * {
+        margin:0;
+        padding:0;
+    }
+    ul.topnav {
+        width:100vw;
+        position:relative;
+    }
     ul.topnav li.right, 
     ul.topnav li {float: none;}
     .body {
         margin-left:10vw;
         margin-right:10vw;
-        margin-top:500px;
+        margin-top:none;
+    }
+    .title {
+        margin:0;
+    }
+    .content {
+        text-align:center;
+    }
+    img {
+        max-width:50vw;
     }
     ul {
         font-size:16px;
